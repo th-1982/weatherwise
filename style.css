@@ -7,8 +7,13 @@
 }
 
 body{
-    background-color: #222;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-image: url(images/weather-background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 400;
     color: #fff;
     text-align: center;
 }
@@ -18,11 +23,22 @@ body{
 .heading {
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .logo{
     height: 40px;
     padding-right: 5px;
     vertical-align: bottom;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
 }
