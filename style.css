@@ -133,3 +133,12 @@ body{
     display: none;
 
 }
+
+.error-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.error-img{
+    width: 50%;
+}
