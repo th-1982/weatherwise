@@ -23,7 +23,10 @@ body{
 .heading {
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 40px;
+    margin-top: 20px;
+   
+    
+    
 }
 
 .logo{
@@ -41,4 +44,40 @@ body{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: #424242;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+   
+}
+
+.search button img{
+    width: 16px;
+    
 }
