@@ -34,7 +34,7 @@ body{
     vertical-align: bottom;
 }
 
-
+/* Central container for weather content */
 .card{
     width: 90%;
     max-width: 470px;
